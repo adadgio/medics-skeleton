@@ -4,7 +4,7 @@ Skeleton project to create 360medics scoped NPM packages
 
 ## Development tests and build
 
-- Tests: `npm run test`
+- Tests: `npm test`
 - Develop: `npm run build:watch`
 - Build: `npm run build`
 
@@ -12,4 +12,12 @@ Skeleton project to create 360medics scoped NPM packages
 
 First **build your package** and **commit your changes**.
 
-Then upgrade version number and commit with `npm version minor && npm publish`.
+Then upgrade version number and commit with:
+
+```
+npm version minor
+```
+
+```
+npm publish --access public
+```
